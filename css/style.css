@@ -556,8 +556,12 @@ transform: scale(1.08);
   transition: 0.5s!important;
  }
 
+ button{
+     outline: none;
+ }
+
 .btn_submite:hover{
-width: 220px;
+ transform: scale(1.1);
 }
 
 .desc_services p{

@@ -763,44 +763,33 @@ padding:50px 0;
 background-color: rgb(248, 248, 248);
  }
 
-.nav-tabs{
-    width: 100%;
-    margin-top: 50px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    border: 2px solid rgb(165, 165, 165)!important;
-}
-
-  .tab-content {
-    border: 2px solid rgb(197, 197, 197)!important;
-z-index: 0!important;
-   }
-  
-.nav-tabs li{
-  flex: 1;
-}
-
-.nav-tabs li a:hover{
-    background-color: var(--bluecolor);
-  }
-
-.nav-tabs .active a{
-     color: var(--redcolor)!important;
-     background-color:#f3f3f3!important;
+ .about_content{
+     display: flex;
  }
-
- .nav-tabs li a{
-    color: #fff!important;
-    font-weight: 600;
-    background-color: var(--bluecolor);
-    border-radius: 0;
+.item_1 img{
+    width: 100%;
+    border-radius: 19px;
+    box-shadow: 2px 2px 4px #fa2c27;
+}
+.item_1{
+    width: 100%;
 }
 
-.nav-tabs li:nth-child(1) a{
-    margin-right: 0;
+.item_2{
+    width: 50%;
 }
 
+.item_1{
+    display: flex;
+}
+.flex_1_about{
+    padding: 15px;
+}
+
+.flex_2_about ul li{
+    padding-right: 65px;
+    padding-top: 10px;
+}
 /* --------------------- */
 
 .tab-pane{
@@ -1170,7 +1159,7 @@ z-index: 0!important;
     }
   }
 
-  @media (min-width:768px) {
+  @media (min-width:768px) and (max-width:1199px) {
   .items_details{
       height: 590px;
   }
@@ -1217,7 +1206,16 @@ z-index: 0!important;
     }
     .contact_about:hover .li_contact_us , .contact_about:hover .li_contact_us a{
         color: #fa2c27!important;
-        text-shadow: 1.5px 1.5px 4px #fff;
+        text-shadow: none;
+    }
+
+    @media (min-width:320px) and (max-width:767px) {
+      .contact_about {
+         margin: 22px 0!important;
+      }
+      .item_1{
+        display: block;
+      }
     }
 
 .contact_about_1 , .contact_about_2{
@@ -1298,16 +1296,19 @@ z-index: 0!important;
   font-size: 17px;
 }
 
-.contact_footer ul li i{
-    color: var(--redcolor);
-    padding-left: 10px;
-    padding-top: 10px;
-    font-size: 19px;
-  }
+.contact_footer ul li{
+    padding: 15px;
+    transition: 0.6s;
+}
 
-  .contact_footer ul li{
-    color: rgb(240, 240, 240);
-    letter-spacing: 1px;
+  .contact_footer ul li i{
+  padding-left: 10px!important;
+ font-size: 20px;  
+}
+
+.contact_footer ul li:hover{
+transform: scale(1.1);
+text-shadow: 2px 2px 4px #fa2c27;
   }
 
   .contact_footer ul li a{
@@ -1612,3 +1613,90 @@ color: #fff;
 .icons_pagination{
     color: #fa2c27;
 }
+
+/* Start Quastion */
+.qustion{
+    padding: 80px 30px;
+    margin-bottom: 40px;
+    padding-top: 110px;
+    box-shadow: 2px 2px 4px #fa2c27;
+  }
+  
+  .content-qustion{
+      min-height: 450px;
+      background-color: #2C3E50;
+      border-radius: 15px;
+      padding: 20px 15px;
+  }
+  
+  .titil-qustion h2{
+      color: #fa2c27;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 30px;
+  }
+  
+  .titil-qustion img{
+      width: 100%;
+      margin-top: 60%;
+  }
+  
+  .panel-default {
+      border-color: 0;
+      border: 0;
+  }
+  
+  .panel-default>.panel-heading {
+      color: #fff;
+      background-color: #2C3E50;
+      border-color:0;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 16px;
+  }
+  
+  .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+      border-top: 0;
+  }
+  
+  .panel-group{
+      padding: 25px  0;
+      position: relative;
+  }
+  
+  .panel-collapse{
+      background-color: #2C3E50;
+      color: rgba(255, 255, 255, 0.904);
+      padding: 10px 20px;
+      font-size: 17px;
+  }
+  
+  .panel-title{
+      margin-top: 15px;
+  }
+  
+  .panel-title a{
+      font-size: 19px;
+      /* font-weight: 600; */
+      letter-spacing: 1.4px;
+      transition: 0.5s;
+  }
+  
+  .panel-title a:hover{
+    text-shadow: 2px 2px 4px #fa2c27;
+}
+
+  .panel-body ul{
+      padding: 15px 0;
+  }
+  
+  
+  .line{
+      position: absolute;
+      width: 83%;
+      margin-left: 15px;
+      height: 2px;
+      background-color: #fff;
+      margin-top: 20px;
+  }
+  

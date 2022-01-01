@@ -21,12 +21,12 @@ $(function(){
   $(window).scroll(function(){
       var windowscroll = $(this).scrollTop()
       if(windowscroll >700){
-              $(".navbar_section").fadeIn();
+              // $(".navbar_section").fadeIn();
               // $(".link_nav").fadeIn(1000);
               //  $(".navbar_section").fadeIn();
       }
       else{
-          $(".navbar_section").fadeOut();
+          // $(".navbar_section").fadeOut();
       }
   })
   $(".btn_direction").on('click',function(){

@@ -82,4 +82,16 @@ $(function(){
   sr.reveal(".text_contact", { interval: 400 });
   sr.reveal(".contact_footer", { interval: 500 });
 
-  
+  // --------------------------------------------------------------------------
+  let selectHeader = select('#team')
+  if (selectHeader) {
+    const headerScrolled = () => {
+      if (window.scrollY > 10) {
+        selectHeader.classList.add('header-scrolled')
+      } else {
+        selectHeader.classList.remove('header-scrolled')
+      }
+    }
+    window.addEventListener('load', headerScrolled)
+    onscroll(document, headerScrolled)
+  }

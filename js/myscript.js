@@ -58,11 +58,11 @@ $(".link_nav_1").on('click',function(){
 //  $(".link_nav_2").fadeOut(0).fadeIn(1000);
 
 
-//  $(".link_nav_3").on('click',function(){
-//   $("html").animate({
-//       scrollTop : 1420
-//   },1000);
-//  });
+ $(".link_nav_3").on('click',function(){
+  $("html").animate({
+      scrollTop : 1420
+  },1000);
+ });
 //  $(".link_nav_3").fadeOut(0).fadeIn(1000);
 
 
@@ -137,25 +137,25 @@ $(".link_nav_6").on('click',function(){
   // sr.reveal(".link_services", { delay: 600 });
 
   
-  // /*SCROLL SKILLS*/
-  // sr.reveal(".items_services", {});
-  // sr.reveal(".item_services", {});
-  // sr.reveal(".btn_services", { interval: 200 });
+  /*SCROLL SKILLS*/
+  sr.reveal(".items_services", {});
+  sr.reveal(".item_services", {});
+  sr.reveal(".btn_services", { interval: 200 });
   
-  // /*SCROLL WORK*/
-  // sr.reveal(".titil_services", { interval: 200 });
-  // sr.reveal(".nav-tabs", { interval: 400 });
-  // /*SCROLL CONTACT*/
+  /*SCROLL WORK*/
+  sr.reveal(".titil_services", { interval: 200 });
+  sr.reveal(".nav-tabs", { interval: 400 });
+  /*SCROLL CONTACT*/
 
-  // sr.reveal(".item-person", { interval: 400 });
-  // sr.reveal(".img_images_sec", { interval: 500 });
-  // sr.reveal(".titil_dash-home", { interval: 600 });
-  // sr.reveal(".img_message-home", { interval: 400 });
-  // sr.reveal(".desc_message-home", { interval: 500 });
-  // sr.reveal(".c-line-left", { interval: 600 });
+  sr.reveal(".item-person", { interval: 400 });
+  sr.reveal(".img_images_sec", { interval: 500 });
+  sr.reveal(".titil_dash-home", { interval: 600 });
+  sr.reveal(".img_message-home", { interval: 400 });
+  sr.reveal(".desc_message-home", { interval: 500 });
+  sr.reveal(".c-line-left", { interval: 600 });
 
-  // sr.reveal(".text_contact", { interval: 400 });
-  // sr.reveal(".contact_footer", { interval: 500 });
+  sr.reveal(".text_contact", { interval: 400 });
+  sr.reveal(".contact_footer", { interval: 500 });
 
   // --------------------------------------------------------------------------
   // let selectHeader = select('#team')
